@@ -1,10 +1,12 @@
 {
   "name": "@lemonneko/vue-plugin-v-rap",
   "type": "module",
-  "version": "0.1.0",
-  "description": "It just replace your element with a rap video if it has a attribute called: vue-rap",
-  "author": "LemonNekoGH",
+  "version": "0.1.1",
+  "private": false,
+  "description": "It just replace your element with a rap video if it has a attribute called: v-rap",
+  "author": "LemonNeko <self@lemonneko.moe>",
   "license": "MIT",
+  "repository": "https://github.com/LemonNekoGH/vue-plugin-v-rap",
   "keywords": [
     "meme",
     "vue",
