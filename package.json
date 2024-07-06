@@ -1,0 +1,42 @@
+{
+  "name": "@lemonneko/vue-plugin-v-rap",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "It just replace your element with a rap video if it has a attribute called: vue-rap",
+  "author": "LemonNekoGH",
+  "license": "MIT",
+  "keywords": [
+    "meme",
+    "vue",
+    "vue-conf",
+    "vue-conf-china-2024"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
+    }
+  },
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "lint": "eslint . --fix",
+    "build": "vite build"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.31"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.21.3",
+    "@types/node": "v20.12.2",
+    "eslint": "^8.57.0",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3",
+    "vite-plugin-dts": "^3.9.1",
+    "vue": "^3.4.31"
+  }
+}
