@@ -1,5 +1,5 @@
 # vue-plugin-v-rap
-Why not check the [live demo](https://jsfiddle.net/LemonNekoFiddle/vs4mpq8e/3/) first?
+Why not check the [live demo](https://jsfiddle.net/LemonNekoFiddle/vs4mpq8e/7/) first?
 ## Usage
 `main.ts`
 ```typescript
